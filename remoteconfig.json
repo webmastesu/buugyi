@@ -1,5 +1,5 @@
 {
-  "version": 3,
+  "version": 1,
   "remoteControl": {
     "appEnabled": true,
     "maintenance": {
@@ -10,7 +10,7 @@
     "update": {
       "enabled": true,
       "force": false,
-      "minVersionCode": 2,
+      "minVersionCode": 1,
       "latestVersionName": "1.0.1",
       "title": "Update Available",
       "message": "A newer version is available.",
