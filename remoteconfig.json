@@ -1,0 +1,152 @@
+{
+  "version": 3,
+  "remoteControl": {
+    "appEnabled": true,
+    "maintenance": {
+      "enabled": false,
+      "title": "Maintenance",
+      "message": "Server upgrade in progress. Please try again later."
+    },
+    "update": {
+      "enabled": true,
+      "force": false,
+      "minVersionCode": 2,
+      "latestVersionName": "1.0.1",
+      "title": "Update Available",
+      "message": "A newer version is available.",
+      "androidStoreUrl": "https://play.google.com/store/apps/details?id=com.playerfruitbuu.gyi",
+      "fallbackUrl": "https://your-site.com/download"
+    }
+  },
+  "app": {
+    "name": "Kywal Game",
+    "title": "KYWAL GAME",
+    "subtitle": "Tap buttons below to contact or play"
+  },
+  "splash": {
+    "enabled": true,
+    "title": "Buu Gyi",
+    "loadingText": "Loading...",
+    "logoAsset": "assets/ui/buu_gyi_splash_mark.png",
+    "logoUrl": "",
+    "background": {
+      "type": "asset",
+      "assetPath": "assets/ui/buu_gyi_splash_background.jpg",
+      "imageUrl": "",
+      "fit": "cover",
+      "alignment": "center",
+      "overlay": {
+        "enabled": false,
+        "type": "gradient",
+        "colors": [
+          "#2216080D",
+          "#9916080D"
+        ],
+        "begin": "topCenter",
+        "end": "bottomCenter"
+      }
+    },
+    "accentColor": "#F6BC55",
+    "minimumDurationMs": 900
+  },
+  "policy": {
+    "enabled": true,
+    "title": "Policy",
+    "content": "Please play responsibly. By using this app, you agree to the platform terms and privacy policy.",
+    "url": "https://your-site.com/policy"
+  },
+  "home": {
+    "contactTextEnabled": false,
+    "contactText": "policy",
+    "logoAsset": "",
+    "logoUrl": "https://play-lh.googleusercontent.com/G3EHH-nB9MS6cbdUVy9JsHDLk10NWToetILkFpROgvg6thGeLNgVGpOjgO2sdBiV1zbYXZrnpXiugMrbLGdS=w480-h960-rw",
+    "policyIcon": {
+      "enabled": false,
+      "icon": "shield",
+      "action": {
+        "type": "route",
+        "route": "policy"
+      }
+    },
+    "background": {
+      "type": "image",
+      "imageUrl": "",
+      "assetPath": "",
+      "fit": "cover",
+      "alignment": "center",
+      "overlay": {
+        "enabled": true,
+        "type": "gradient",
+        "colors": [
+          "#22000000",
+          "#66000000",
+          "#99000000"
+        ],
+        "begin": "topCenter",
+        "end": "bottomCenter"
+      }
+    },
+    "buttonStyle": {
+      "backgroundColor": "#F97316",
+      "textColor": "#FFFFFF",
+      "iconColor": "#FFFFFF",
+      "height": 56,
+      "radius": 18,
+      "spacing": 10
+    },
+    "buttons": [
+      {
+        "id": "play_game_1",
+        "label": "Play Game",
+        "icon": "sports_esports",
+        "visible": true,
+        "action": {
+          "type": "route",
+          "route": "game1_match3"
+        }
+      },
+      {
+        "id": "exit_game",
+        "label": "Exit Game",
+        "icon": "exit_to_app",
+        "visible": true,
+        "action": {
+          "type": "exit"
+        }
+      },
+      {
+        "id": "contact_telegram",
+        "label": "ကျွဲဂိမ်းအကောင့်ဖွင့်ကစားရန်",
+        "icon": "telegram",
+        "visible": true,
+        "action": {
+          "type": "url",
+          "url": "https://shorturl.at/ReWCW",
+          "fallbackUrl": "https://t.me/winnerxx_bot"
+        }
+      },
+      {
+        "id": "contact_viber",
+        "label": "Viber",
+        "icon": "phone_in_talk",
+        "visible": false,
+        "action": {
+          "type": "url",
+          "url": "viber://chat?number=%2B959123456789",
+          "fallbackUrl": "https://www.viber.com/"
+        }
+      }
+    ]
+  },
+  "games": {
+    "game1_match3": {
+      "enabled": true
+    },
+    "game2_slot": {
+      "enabled": false
+    },
+    "game3_memory": {
+      "enabled": false
+    }
+  }
+}
