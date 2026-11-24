@@ -19,8 +19,8 @@
     }
   },
   "app": {
-    "name": "Kywal Game",
-    "title": "KYWAL GAME",
+    "name": "BuuGyi Game",
+    "title": "BuuGyi Game",
     "subtitle": "Tap buttons below to contact or play"
   },
   "splash": {
@@ -118,7 +118,7 @@
         "id": "contact_telegram",
         "label": "ကျွဲဂိမ်းအကောင့်ဖွင့်ကစားရန်",
         "icon": "telegram",
-        "visible": true,
+        "visible": false,
         "action": {
           "type": "url",
           "url": "https://shorturl.at/ReWCW",
